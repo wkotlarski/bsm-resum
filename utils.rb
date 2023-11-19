@@ -3,10 +3,16 @@ def linspace(min, max, step)
   [*0..points].collect {|i| min + i*step}
 end
 
-def modify_run_card proc_dir, muR, muF
+def modify_run_card proc_dir, energy, muR, muF
   file_name = File.join(proc_dir, 'Cards', 'run_card.dat')
   file = File.read(file_name)
   lines = file.each_line.to_a
+  temp = lines[61].split(' ')
+  temp[0] = (0.5*energy*1e+3).to_s
+  lines[61] = temp.join(' ') + "\n"
+  temp = lines[62].split(' ')
+  temp[0] = (0.5*energy*1e+3).to_s
+  lines[62] = temp.join(' ') + "\n"
   temp = lines[87].split(' ')
   temp[0] = muR.to_f.to_s
   lines[87] = temp.join(' ') + "\n"
