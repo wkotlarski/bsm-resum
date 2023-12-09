@@ -1,0 +1,82 @@
+
+   --------------------------------------------------------------
+      Final results and run summary:
+      Process p p > sql sqr [all=QCD] ; p p > sqlc sqrc [all=QCD]
+      Run at p-p collider (6500.0 + 6500.0 GeV)
+      Total cross section: 7.633e-03 +- 4.2e-06 pb
+   --------------------------------------------------------------
+      Scale variation (computed from histogram information):
+          Dynamical_scale_choice 0 (envelope of 9 values): 
+              7.635e-03 pb  +19.3% -16.5%
+      PDF variation (computed from histogram information):
+          PDF4LHC21_40_pdfas (43 members; using symmhessian+as method): 
+              7.635e-03 pb  +9.2% -5.8%
+   --------------------------------------------------------------
+
+
+
+  Statistics on virtual integration optimization : 
+  Could not find statistics on the integration optimization. 
+
+  Inclusive timing profile :
+    Overall slowest channel          0:00:14 (P0_uu_sursul/all_G1_19 [step 1])
+    Average channel running time     0:00:04
+    Aggregated total running time    0:17:39
+  Timing profile for <Reweight_pdf> :
+    Overall fraction of time         61.881 %
+    Largest fraction of time         80.987 % (P0_bxsx_sslxsbrx/all_G1 [step 1])
+    Smallest fraction of time        0.000 % (P0_bb_sbrsbl/all_G1 [step 0])
+  Timing profile for <Virtuals> :
+    Overall fraction of time         24.864 %
+    Largest fraction of time         93.258 % (P0_cxcx_sclxscrx/all_G1 [step 0])
+    Smallest fraction of time        4.895 % (P0_dd_sdrsdl/all_G1_2 [step 1])
+  Timing profile for <Reweight_scale> :
+    Overall fraction of time         4.139 %
+    Largest fraction of time         5.505 % (P0_dxsx_sslxsdrx/all_G1 [step 1])
+    Smallest fraction of time        0.000 % (P0_bb_sbrsbl/all_G1 [step 0])
+  Timing profile for <Other_tasks> :
+    Overall fraction of time         3.829 %
+    Largest fraction of time         6.634 % (P0_bxsx_sslxsbrx/all_G1 [step 0])
+    Smallest fraction of time        2.909 % (P0_cxcx_sclxscrx/all_G1 [step 0])
+  Timing profile for <Counter_terms> :
+    Overall fraction of time         0.985 %
+    Largest fraction of time         1.706 % (P0_uxcx_sulxscrx/all_G1 [step 0])
+    Smallest fraction of time        0.752 % (P0_sxsx_sslxssrx/all_G1 [step 0])
+  Timing profile for <Integrated_CT> :
+    Overall fraction of time         0.957 %
+    Largest fraction of time         1.714 % (P0_uxcx_sulxscrx/all_G1 [step 0])
+    Smallest fraction of time        0.778 % (P0_sxsx_sslxssrx/all_G1 [step 0])
+  Timing profile for <Reals_evaluation> :
+    Overall fraction of time         0.869 %
+    Largest fraction of time         1.288 % (P0_uxcx_sulxscrx/all_G1 [step 0])
+    Smallest fraction of time        0.699 % (P0_bxdx_sblxsdrx/all_G1 [step 1])
+  Timing profile for <Adding_alphas_pdf> :
+    Overall fraction of time         0.811 %
+    Largest fraction of time         1.364 % (P0_uxcx_sulxscrx/all_G1 [step 0])
+    Smallest fraction of time        0.506 % (P0_sxsx_sslxssrx/all_G1 [step 0])
+  Timing profile for <Filling_plots> :
+    Overall fraction of time         0.600 %
+    Largest fraction of time         0.800 % (P0_cxdx_sdlxscrx/all_G1 [step 1])
+    Smallest fraction of time        0.243 % (P0_sxsx_sslxssrx/all_G1 [step 0])
+  Timing profile for <Applying_cuts> :
+    Overall fraction of time         0.401 %
+    Largest fraction of time         0.677 % (P0_uxcx_sulxscrx/all_G1 [step 0])
+    Smallest fraction of time        0.262 % (P0_cxcx_sclxscrx/all_G1 [step 0])
+  Timing profile for <Nbody_prefactor> :
+    Overall fraction of time         0.269 %
+    Largest fraction of time         0.395 % (P0_bxsx_sslxsbrx/all_G1 [step 0])
+    Smallest fraction of time        0.200 % (P0_sxsx_sslxssrx/all_G1 [step 0])
+  Timing profile for <Born> :
+    Overall fraction of time         0.230 %
+    Largest fraction of time         0.319 % (P0_uxcx_sulxscrx/all_G1 [step 0])
+    Smallest fraction of time        0.162 % (P0_cxcx_sclxscrx/all_G1 [step 0])
+  Timing profile for <N1body_prefactor> :
+    Overall fraction of time         0.166 %
+    Largest fraction of time         0.273 % (P0_bxsx_sslxsbrx/all_G1 [step 0])
+    Smallest fraction of time        0.130 % (P0_sxsx_sslxssrx/all_G1 [step 0])
+  Zero time record for PS_Generation.
+  Zero time record for MCsubtraction.
+  Zero time record for FxFx_cluster.
+  Zero time record for Sum_ident_contr.
+  Zero time record for Pick_unwgt.
+  Zero time record for Write_events.
