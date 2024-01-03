@@ -1,0 +1,14 @@
+
+   --------------------------------------------------------------
+      Final results and run summary:
+      Process p p > sql sqr [all=QCD] ; p p > sqlc sqrc [all=QCD]
+      Run at p-p collider (6800.0 + 6800.0 GeV)
+      Total cross section: 3.324e-03 +- 3.0e-06 pb
+   --------------------------------------------------------------
+      Scale variation (computed from histogram information):
+          Dynamical_scale_choice 0 (envelope of 9 values): 
+              3.326e-03 pb  +8.1% -10.6%
+      PDF variation (computed from histogram information):
+          PDF4LHC21_40_pdfas (43 members; using symmhessian+as method): 
+              3.326e-03 pb  +7.3% -3.9%
+   --------------------------------------------------------------
